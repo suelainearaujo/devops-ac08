@@ -13,6 +13,7 @@ from app.forms import BootstrapAuthenticationForm
 
 urlpatterns = patterns('',
     # Examples:
+    
     url(r'^$', 'app.views.home', name='home'),
     url(r'^contact$', 'app.views.contact', name='contact'),
     url(r'^about', 'app.views.about', name='about'),
